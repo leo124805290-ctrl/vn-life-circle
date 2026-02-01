@@ -1,0 +1,22 @@
+vn-life-circle/
+├─ backend/
+│  ├─ src/
+│  │  ├─ server.js
+│  │  ├─ routes/
+│  │  │  ├─ auth.js
+│  │  │  ├─ properties.js
+│  │  │  └─ marketplace.js
+│  ├─ package.json
+│  └─ Dockerfile
+├─ frontend/
+│  ├─ src/
+│  │  ├─ App.js
+│  │  ├─ Login.js
+│  │  ├─ Properties.js
+│  │  └─ Marketplace.js
+│  ├─ package.json
+│  └─ Dockerfile
+├─ infra/
+│  ├─ docker-compose.yml
+│  └─ zeabur.json
+└─ README.md
